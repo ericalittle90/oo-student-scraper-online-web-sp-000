@@ -18,11 +18,10 @@ class Scraper
     #p class="student-location"
     #a href
   end
-end 
+end
 
   def self.scrape_profile_page(profile_url)
-    
+
   end
 
 end
-
