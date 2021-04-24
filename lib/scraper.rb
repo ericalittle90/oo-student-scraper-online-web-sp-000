@@ -27,7 +27,7 @@ end
     student = {}
 
     links = profile_page.css("div.social-icon-container").css("a").collect {|s| s.attribute("href").value}
-    
+
     links.each do |link|
       if link.include?("linkedin")
         student[:linkedin] = link
